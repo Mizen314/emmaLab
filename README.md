@@ -9,14 +9,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Laboratorio de Modo de consentimiento para Angular/Firebase
 
-    Un proyecto para implementar el modo de consentimiento con el SDK de firebase. Se implementa un objeto en localstorage con un
+Un proyecto para implementar el modo de consentimiento con el SDK de firebase. Se implementa un objeto en localstorage con un
 servicio que se dispara al iniciar la aplicación. 
 
 ## Funcionamiento del servicio
 
-    Este, revisa si existe la key de consentMode. Si no existe setea la key de consentMode en false indicando que no se preguntó al usuario
+Este, revisa si existe la key de consentMode. Si no existe setea la key de consentMode en false indicando que no se preguntó al usuario
 acerca de sus preferencias. Adicionalmente agrega la key de showBanner en true, para que cuando inicie la aplicación muestre el banner.
-    En caso que si se le haya preguntado anteiormente, recupera la selección anterior y mantiene las preferencias.
+En caso que si se le haya preguntado anteiormente, recupera la selección anterior y mantiene las preferencias.
 
 ### Keys que se guardan corresponden al tipo de stoage involucrado
 
