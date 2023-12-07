@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Laboratorio de Modo de consentimiento para Angular/Firebase
 
 Un proyecto para implementar el modo de consentimiento con el SDK de firebase. Se implementa un objeto en localstorage con un
-servicio que se dispara al iniciar la aplicación. 
+servicio que se dispara al iniciar la aplicación.
 
 ## Funcionamiento del servicio
 
