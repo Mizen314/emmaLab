@@ -3,9 +3,10 @@
 ## Implementaciones Básicas
 
 -Angular cli
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
 -Firebase cli
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
 ## Laboratorio de Modo de consentimiento para Angular/Firebase
 
@@ -21,8 +22,11 @@ En caso que si se le haya preguntado anteiormente, recupera la selección anteri
 ### Keys que se guardan corresponden al tipo de stoage involucrado
 
 -ad_storage
+
 -analytics_storage
+
 -functionality_storage
+
 -personalization_storage
 
 ## Development server
