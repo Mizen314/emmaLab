@@ -1,0 +1,53 @@
+<div class="bannerContainer">
+    <div class="bannerBody">
+      <div class="header">
+          <h1>Modo de Consentimiento</h1>
+        </div>
+      <div class="form-check form-switch formTitle">
+        <input class="form-check-input" type="checkbox" role="switch" id="marketing" [(ngModel)]="marketing"  />
+        <label class="form-check-label" for="marketing">Cookies de publicidad personalizada</label>
+        <p class="consent-text">
+          Nos permiten entender tus preferencias para mostrarte anuncios
+          interesantes para ti. Si las desactivas, estarías eliminando una de
+          las fuentes de información que usamos para personalizar los
+          anuncios.
+        </p>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="analytics" [(ngModel)]="analytics"  />
+        <label class="form-check-label" for="analytics">Cookies de Analytics</label>
+        <p class="consent-text">
+          Nos permiten obtener información para actualizar nuestra app y, de esta manera, adaptarla a tus
+          necesidades.
+        </p>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="funcionality" [(ngModel)]="funcionality"  />
+        <label class="form-check-label" for="funcionality">Cookies de rendimiento</label>
+        <p class="consent-text">Nos permiten optimizar algunas funciones de nuestro sitio. Si las
+          desactivas, podrías ver cambios en la velocidad o resolución.</p>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="preferences"  [(ngModel)]="preferences"  />
+        <label class="form-check-label" for="preferences">Cookies Funcionales</label>
+        <p class="consent-text">
+          Nos permiten mantener el buen funcionamiento de nuestro sitio. Si
+          las desactivas, podrías presentar cambios en tu navegación.
+        </p>
+      </div>
+    </div>
+    <div class="bannerfooter">
+      <button type="button" class="btn btn-success" data-bs-dismiss="modal" (click)="aceptarTodo()">
+        Aceptar Todo
+      </button>
+      <button type="button" class="btn btn-outline-success" data-bs-dismiss="modal" (click)="aceptarSeleccionados($event)">
+        Aceptar selección
+      </button>
+      <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="rechazarTodo()">
+        Rechazar Todo
+      </button>
+    </div>
+</div>
+
+
+
